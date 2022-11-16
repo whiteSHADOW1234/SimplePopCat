@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+	<title>popcat</title>
+</head>
+<body>
+<h1>click count</h1>	
+<p id="demo"> 0 </p>
+<script>
+c =1
+function count()
+	{
+		x=document.getElementById("demo");  
+		x.innerHTML=c++;    
+	}
+function changeImage()
+{
+	count()
+	element=document.getElementById('myimage')
+	if (element.src.match("https://memeprod.sgp1.digitaloceanspaces.com/user-resource-thumbnail/79b46b770a422dd42cdaf9a929c3093d.png"))
+	{
+		element.src="https://memeprod.sgp1.digitaloceanspaces.com/user-resource-thumbnail/ae820c51eb4f06d8e28a5fa14c267ee4.png";
+	}
+	else
+	{
+		element.src="https://memeprod.sgp1.digitaloceanspaces.com/user-resource-thumbnail/79b46b770a422dd42cdaf9a929c3093d.png";
+	}
+}
+</script>
+<p>
+<img id="myimage" onclick="changeImage()" src="https://memeprod.sgp1.digitaloceanspaces.com/user-resource-thumbnail/79b46b770a422dd42cdaf9a929c3093d.png" width="100" height="180">
+<p>something like popcat</p>
+	
+</body>
+</html>
