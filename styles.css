@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffbe; /* sets the background color of the page */
+}
+
+h1 {
+    font-size: 2em; /* increases the font size of the heading */
+    font-family: Arial, sans-serif; /* sets the font family */
+    text-align: center; /* centers the heading on the page */
+    margin-top: 50px; /* adds a margin at the top of the heading */
+}
+
+p {
+    font-size: 1.2em; /* increases the font size of the paragraph text */
+    font-family: Arial, sans-serif; /* sets the font family */
+    text-align: center; /* centers the paragraph text on the page */
+    margin: 20px 0; /* adds a margin at the top and bottom of the paragraph */
+}
+
+#myimage {
+    border: 10px solid #333; /* adds a border around the image */
+    border-radius: 10px; /* rounds the corners of the border */
+    box-shadow: 5px 5px 5px #999; /* adds a shadow to the image */
+}
